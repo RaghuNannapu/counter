@@ -18,7 +18,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'DockerHub'
-    repository: 'dab8106/flask24082024'
+    repository: 'raghunannapu/Raghu@1986'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
